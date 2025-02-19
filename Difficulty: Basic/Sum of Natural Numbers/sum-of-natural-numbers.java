@@ -28,10 +28,12 @@ class GFG {
 
 class Solution {
     public static int seriesSum(int n) {
-        int sm=0;
-        for(int i=0;i<=n;i++) {
-            sm = sm+i;
+        // code here
+        int Su = 0;
+        for(int i=0;i<=n;i++) 
+        {
+            Su = Su+i;
         }
-        return sm;
+        return Su;
     }
 }
